@@ -27,15 +27,18 @@
         }
         ?>
 
-    <?php
-
-        foreach ( $imena as $ime ) {
-                ?>
-                <p> <?php echo $ime ?>   </p>
         <?php
-        }
-    ?>
 
+            foreach ( $imena as $ime ) { ?>
+                    <p> <?php echo $ime ?>   </p>
+            <?php
+            }
+        ?>
+
+
+        <?php foreach ( $imena as $ime ): ?>
+
+        <?php endforeach; ?>
 
 
 
