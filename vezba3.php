@@ -4,8 +4,6 @@
 
 
 
-
-
     $reci = ["Slovo","Asembley","PHP","Java","C","TypeScript"];
 
     foreach($reci as $rec){
